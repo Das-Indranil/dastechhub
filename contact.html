@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DAS TECHHUB--Your Gateway to Digital Success </title>
+
+    <link rel="icon" type="image/x-icon"  href="./images/final-2.png">
+
+    <!-- font-awasome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <style>footer{padding-top: 0;}</style>
+    <!-- maps script start for dark mode  -->
+           <!-- <script
+           src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"
+           defer></script> -->
+    <!-- maps script end for dark mode  -->
+    <!-- css part for dark map  -->
+    <!-- <style>
+        #map {
+            height: 450px;
+            width: 600px;
+        }
+    </style> -->
+    <!-- end  -->
+    <!-- map main script start  -->
+    <!-- <script>
+        function initMap() {
+            const darkMapStyle = [
+                { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
+                { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+                { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
+                { featureType: 'administrative.locality', elementType: 'labels.text.fill', stylers: [{ color: '#d59563' }] },
+                { featureType: 'poi', elementType: 'labels.text.fill', stylers: [{ color: '#d59563' }] },
+                { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#263c3f' }] },
+                { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#38414e' }] },
+                { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#17263c' }] }
+            ];
+
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 22.440955037784164, lng: 88.37345617442932 },
+                zoom: 15,
+                styles: darkMapStyle
+            });
+
+            const marker = new google.maps.Marker({
+                position: { lat: 22.440955037784164, lng: 88.37345617442932 },
+                map: map,
+                title: 'Sree Sree Thakur Anukulchandra Ashram'
+            });
+        }
+    </script> -->
+    <!-- map main script end  -->
+
+
+</head>
+
+<body onload="initMap()" >
+    <!-- navbar start  -->
+    <header class="section-navbar">
+        <div class="container">
+            <div class="navbar--brand">
+                <a href="index.html">
+                    <img src="./images/final-logo.jpg" alt="Das Techhub logo" width="80%" height="auto" />
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html"> home </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"> about </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="services.html"> services</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html"> blog </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"> contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- navbar end  -->
+
+    <!-- contact all content start  -->
+    <section class="section-contact">
+        <div class="container">
+            <h2 class="section-common-heading">
+                Contact With Us
+            </h2>
+            <p class="section-common-subheading">
+                We'd love to hear about your digital project. Please get in touch with one of our Project Consultants.
+            </p>
+        </div>
+        <div class="container grid grid-two--cols">
+            <div class="contact-content">
+                <form action="https://formspree.io/f/mqkrnrlk" method="post">
+                    <div class=" grid grid-two--cols mb-3">
+                        <div class="name-fill">
+                            <label for="username">username</label>
+                            <input type="text" name="username" id="username" required autocomplete="off"
+                                placeholder="Enter your name" />
+                        </div>
+                        <div class="mail-fill">
+                            <label for="email">email</label>
+                            <input type="text" name="email" id="email" required autocomplete="off"
+                                placeholder="abc@das.com">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject">subject</label>
+                        <input type="text" name="subject" id="subject" required
+                            placeholder="Enter your subject title" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message">message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="div">
+                        <button type="submit" class="btn btn-submit">send message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-map" id="map">
+                <iframe class="mymap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+                    1d3687.68297720187!2d88.37345617442932!3d22.440955037784164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+                    4f13.1!3m3!1m2!1s0x3a0271c7ace75523%3A0x75c6351181599d22!2sSree%20Sree%20Thakur%
+                    20Anukulchandra%20Ashram
+                    !5e0!3m2!1sen!2sin!4v1714756849244!5m2!1sen!2sin"
+                    width="550px" height="350px" 
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact all content end   -->
+
+
+    <!-- contact page footer section start  -->
+    <footer>
+        <div class="container grid grid-four--cols">
+
+            <!-- 1st grid col  -->
+
+
+            <div class="footer-1--div">
+                <div class="logo-brand">
+                    <a href="index.html" class="footer-subheading">Das TechHub</a>
+                </div>
+                <p class="italic-word">Gain a reliable tech partner</p> <br> <p>West Bengal , Kolkata - 700103 </p>
+            
+            <div class="social-footer--icons">
+                <a href="https://www.linkedin.com/in/theindranildas" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://www.facebook.com/indranil.das.5680899" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://github.com/Das-Indranil" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- 2nd grid cols -->
+
+
+
+        <div class="footer-2--div">
+            <p class="footer-subheading">company</p>
+                <ul>
+                    <li> <a href="index.html">home</a></li>
+                    <li> <a href="about.html">about</a></li>
+                    <li> <a href="services.html">services</a></li>
+                    <li> <a href="blog.html">blog</a></li>
+                    <li> <a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+
+<!-- 3rd grid cols  -->
+
+            <div class="footer-3--div">
+                <p class="footer-subheading">Get In Touch</p>
+                    <ul>
+                        <li><a href="mailto:14indranil1999@gmail.com">14indranil1999@gmail.com</a></li>
+
+                        <li><a href="mailto:indranildas710@gmail.com">indranildas710@gmail.com</a></li>
+                        <li><a href="https://wa.me/919748433642">Chat on 9748433642</a></li>
+                        
+                    </ul>
+                </div>
+                
+                
+                <!-- 4th grid cols  -->
+                
+                <div class="footer-4--div">
+                    <p class="footer-subheading">location</p>
+                    <ul>
+                        <li>
+                            <a href="https://maps.app.goo.gl/yNzxLt2RfVswKXjL9" target="_blank" rel="noopener noreferrer">
+                                Baghar Ghole
+                               
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/yNzxLt2RfVswKXjL9" target="_blank" rel="noopener noreferrer">
+                                 
+                                Noboday Pally 
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/yNzxLt2RfVswKXjL9" target="_blank" rel="noopener noreferrer">
+                                 
+                                Kolkata-700103
+                            </a>
+                            
+                        </li>
+                        
+                        <li><a href="tel:+918240639424">Call +918240639424</a></li>
+
+                           
+                        </ul>
+                    </div>
+
+                    <!-- grid cols end  -->
+
+
+        </div>
+    </footer>
+
+    <!-- contact page footer section end  -->
+</body>
+
+</html>
